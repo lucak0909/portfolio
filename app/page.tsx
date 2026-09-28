@@ -3,6 +3,8 @@ import { Github, Linkedin, Mail } from "lucide-react";
 import Particles from "@/components/particles";
 import { getAge, getAcademicYear, getOrdinal } from "@/lib/utils";
 
+export const dynamic = "force-dynamic";
+
 export default function Home() {
   const age = getAge();
   const year = getAcademicYear();
